@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.fing;
 
 import org.junit.runners.model.InitializationError;
 import org.robolectric.RobolectricGradleTestRunner;
@@ -6,8 +6,6 @@ import org.robolectric.annotation.Config;
 import org.robolectric.manifest.AndroidManifest;
 import org.robolectric.res.FileFsFile;
 import org.robolectric.res.FsFile;
-import org.robolectric.util.Logger;
-import org.robolectric.util.ReflectionHelpers;
 
 /**
  * More dynamic path resolution.
