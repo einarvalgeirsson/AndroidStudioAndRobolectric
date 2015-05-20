@@ -89,8 +89,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     private void showReminderOptions() {
         mOneHour.setVisibility(View.VISIBLE);
         mTomorrow.setVisibility(View.VISIBLE);
-        if(DateUtil.isBeforeAfternoon()) { mAfternoon.setVisibility(View.VISIBLE); }
-        if(DateUtil.isBeforeEvening()) { mEvening.setVisibility(View.VISIBLE); }
+        mAfternoon.setVisibility(View.VISIBLE);
+        mEvening.setVisibility(View.VISIBLE);
     }
 
     private void exitApplication() {
